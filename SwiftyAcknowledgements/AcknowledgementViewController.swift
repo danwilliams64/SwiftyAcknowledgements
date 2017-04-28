@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal class AcknowledgementViewController: UIViewController {
+open class AcknowledgementViewController: UIViewController {
     
     // MARK: Properties
     
