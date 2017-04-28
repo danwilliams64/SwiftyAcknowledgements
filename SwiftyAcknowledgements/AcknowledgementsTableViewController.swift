@@ -80,7 +80,7 @@ open class AcknowledgementsTableViewController: UITableViewController {
     /// - Parameter lhs: acknowledgement *lhs*
     /// - Parameter rhs: acknowledgement *rhs*
     /// - Returns: A boolean indicating wether *lhs* is ordered before *rhs*
-    open typealias SortingClosure = ((Acknowledgement, Acknowledgement) -> Bool)
+    public typealias SortingClosure = ((Acknowledgement, Acknowledgement) -> Bool)
     
     /// A closure used to sort the *acknowledgements* array, defaults to a closure
     /// that sorts alphabetically. The sorting closure can be changed any time and the
@@ -111,7 +111,7 @@ open class AcknowledgementsTableViewController: UITableViewController {
     
     // MARK: Initialization
     
-    open init(acknowledgementsPlistPath: String? = nil) {
+    public init(acknowledgementsPlistPath: String? = nil) {
         super.init(style: .grouped)
     }
     
@@ -119,7 +119,7 @@ open class AcknowledgementsTableViewController: UITableViewController {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
 
-    required open init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(style: .grouped)
     }
     
