@@ -10,7 +10,7 @@ import UIKit
 
 // MARK: - AcknowledgementsTableViewController
 
-public class AcknowledgementsTableViewController: UITableViewController {
+public open class AcknowledgementsTableViewController: UITableViewController {
 
     // MARK: Properties
     
