@@ -38,7 +38,7 @@ open class AcknowledgementViewController: UIViewController {
 
         #if os(tvOS)
             textView.isSelectable = true
-            textView.panGestureRecognizer.allowedTouchTypes = [NSNumber(value: UITouchType.indirect.rawValue)]
+        textView.panGestureRecognizer.allowedTouchTypes = [NSNumber(value: UITouch.TouchType.indirect.rawValue)]
         #endif
         
         return textView
