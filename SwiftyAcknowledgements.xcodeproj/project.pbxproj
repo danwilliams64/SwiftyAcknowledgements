@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37C3AAE425AF34E7003B0B84 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3AAE325AF34E7003B0B84 /* Package.swift */; };
 		524F34CE1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F34CD1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift */; };
 		524F34CF1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F34CD1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift */; };
 		524F34D11BE2491800784625 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F34D01BE2491800784625 /* BaseTestCase.swift */; };
@@ -101,6 +102,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		37C3AAE325AF34E7003B0B84 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		524F34CD1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowledgementsTableViewControllerTests.swift; sourceTree = "<group>"; };
 		524F34D01BE2491800784625 /* BaseTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 		527046711BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontDescriptorExtensions.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 		52FC376D1B9F6A0A005EFE87 = {
 			isa = PBXGroup;
 			children = (
+				37C3AAE325AF34E7003B0B84 /* Package.swift */,
 				52FC37791B9F6A0A005EFE87 /* SwiftyAcknowledgements */,
 				5270467C1BE203CB004CD4FC /* Tests */,
 				52FC378E1B9F6BEF005EFE87 /* iOS Example */,
@@ -672,6 +675,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52FC37871B9F6A94005EFE87 /* AcknowledgementsTableViewController.swift in Sources */,
+				37C3AAE425AF34E7003B0B84 /* Package.swift in Sources */,
 				52FC37881B9F6A94005EFE87 /* AcknowledgementViewController.swift in Sources */,
 				527046721BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift in Sources */,
 				52FC37861B9F6A94005EFE87 /* Acknowledgement.swift in Sources */,
@@ -989,6 +993,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "SwiftyAcknowledgements/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.mathiasnagler.SwiftyAcknowledgements;
 				PRODUCT_NAME = SwiftyAcknowledgements;
@@ -1009,6 +1014,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "SwiftyAcknowledgements/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.mathiasnagler.SwiftyAcknowledgements;
 				PRODUCT_NAME = SwiftyAcknowledgements;
@@ -1024,6 +1030,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Examples/iOS Example/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1037,6 +1044,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Examples/iOS Example/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
